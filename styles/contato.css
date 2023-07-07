@@ -9,6 +9,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     text-decoration: none;
+    color: var(--blue-fonte);
 }
 
 .contato__titulo{
