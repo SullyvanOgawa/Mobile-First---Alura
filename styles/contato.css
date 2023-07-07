@@ -26,9 +26,12 @@
     border: 1px solid var(--blue-fonte);
     border-radius: 24px;
     width: 90%;   
+    color: var(--blue-fonte);
 }
 
 .contato__email::placeholder{
     font-family: var(--font-principal);
     color: var(--blue-fonte);
+    background: url("../img/Email.svg") no-repeat;
+    padding-left: 2.8em;
 }
