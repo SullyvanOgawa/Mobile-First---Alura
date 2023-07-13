@@ -41,12 +41,13 @@
     background-color: var(--white);    
 }
 
-.lista-menu__item{
-    color: var(--azul-degradre);
-}
 .lista-menu__titulo{
     color: var(--orange);
     font-weight: 700;
+}
+
+.lista-menu__item{
+    color: var(--black-fonte);
 }
 
 .lista-menu__link{
@@ -110,4 +111,5 @@
         display:none;
     }
 
+    
 }
