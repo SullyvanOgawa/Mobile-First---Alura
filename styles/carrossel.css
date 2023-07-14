@@ -79,7 +79,7 @@
     }
 
     .swiper{
-        width: 90%;
+        width: 70%;
     }
 
     .swiper-pagination{
@@ -88,7 +88,12 @@
 
     .swiper-button-prev, .swiper-button-next{
         display: block;
-        top:50%;
+        top:60%;
+    }
+
+    .card{
+        width: 55%;
+        margin: 2em auto;
     }
 
     
