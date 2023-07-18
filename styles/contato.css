@@ -55,10 +55,11 @@
 
     .contato__titulo{
         font-size: 26px;
+    }   
+}
+
+@media screen and (min-width: 1728px){
+    .contato{
+        padding: 3em 20vw;
     }
-
-   
-
-    
-    
 }
