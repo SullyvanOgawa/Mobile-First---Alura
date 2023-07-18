@@ -69,6 +69,10 @@
 .opcoes{
     display:none;
 }
+
+.container__tetxo{
+    display:none;
+}
 @media screen and (min-width: 1024px){
     .container__titulo, .container__titulo--negrito{
         font-family: var(--font-secundaria);
@@ -112,4 +116,25 @@
     }
 
     
+}
+
+@media screen and (min-width: 1728px){
+    .cabecalho{
+        padding: 0 2em;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+    .container__link{
+        display:flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--black-fonte);
+    }
+
+    .container__tetxo{
+        display:block;
+    }
+
 }
