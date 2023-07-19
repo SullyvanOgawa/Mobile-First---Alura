@@ -51,7 +51,7 @@ hr{
 
 }
 
-@media screen and (min-width: 1728px){
+@media screen and (min-width: 1025px){
     
     .rodape{
         background-color: var(--blue-fonte);

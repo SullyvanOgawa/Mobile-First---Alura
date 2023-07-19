@@ -8,6 +8,9 @@
     display: inline-block;
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer{
+    background-image: url("../img/Frame\ 20.svg");
+}
 .cabecalho{
     background-color: var(--white);
     display: flex;
@@ -118,7 +121,7 @@
     
 }
 
-@media screen and (min-width: 1728px){
+@media screen and (min-width: 1025px){
     .cabecalho{
         padding: 0 2em;
     }
