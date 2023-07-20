@@ -9,7 +9,7 @@
 }
 
 .container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer{
-    background-image: url("../img/Frame\ 20.svg");
+    background-image: url("../img//Frame\ 20.svg");
 }
 .cabecalho{
     background-color: var(--white);
@@ -118,10 +118,19 @@
         display:none;
     }
 
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item{
+        color: var(--white);
+        background: var(--blue-fonte);
+    }
+
+    .opcoes__item{
+        padding: 2em 2em;
+    }
+
     
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1520px){
     .cabecalho{
         padding: 0 2em;
     }
