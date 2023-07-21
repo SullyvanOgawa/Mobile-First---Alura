@@ -127,7 +127,15 @@
         padding: 2em 2em;
     }
 
-    
+    .lista-menu__item:hover{
+        background: var(--blue-fonte);
+        color: var(--white);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link{
+        -webkit-text-fill-color: var(--white);
+        text-decoration: none;
+    }    
 }
 
 @media screen and (min-width: 1520px){
