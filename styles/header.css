@@ -54,6 +54,7 @@
 }
 
 .lista-menu__link{
+    color: var(--blue-fonte);
     background: var(--azul-degradre);
     -webkit-background-clip: text;
     background-clip: text;
