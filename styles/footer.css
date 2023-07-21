@@ -49,7 +49,6 @@ hr{
         margin-left: 0.6em;
     }
 
-    .lista-rodape:active
 }
 
 @media screen and (min-width: 1520px){
@@ -80,4 +79,11 @@ hr{
     .rodape__titulo, .lista-rodape__titulo, .lista-rodape__link{
         color: var(--white);
     }
+
+    .lista-rodape__item:hover > .lista-rodape__link{
+        font-size: 19px;
+        background: var(--white);
+        color: var(--blackfonte);
+       
+     }
 }
