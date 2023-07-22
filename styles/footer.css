@@ -81,7 +81,7 @@ hr{
     }
 
     .lista-rodape__item:hover > .lista-rodape__link{
-        font-size: 19px;
+        font-size: 22px;
         background: var(--white);
         color: var(--blackfonte);
        
